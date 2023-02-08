@@ -161,3 +161,29 @@ nav{
     text-decoration: line-through;
 }
 /* //item info config */
+
+/* footer config */
+footer{
+    background-color: var(--footerbg);
+    width: 100%;
+    padding: 50px 0;
+}
+
+.societyInfo, .social{
+    color: white;
+}
+
+.footerInfoContainer{
+    justify-content: space-between;
+    
+}
+
+.societyNav{
+    justify-content: space-between;
+}
+
+.social{
+    justify-content: center;
+}
+
+/* //footer config */
