@@ -69,8 +69,6 @@ nav{
     justify-content: space-between;
 }
 
-
-
 /* //nav config */
 .rowPosition{
     align-content: center;
@@ -177,13 +175,18 @@ footer{
     justify-content: space-between;
     
 }
-
+.societyName{
+    padding-bottom: 5px;
+}
 .societyNav{
     justify-content: space-between;
 }
-
 .social{
-    justify-content: center;
+   text-align: center;
+}
+
+.findUs{
+    padding-bottom: 5px;
 }
 
 /* //footer config */
