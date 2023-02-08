@@ -6,3 +6,46 @@
     box-sizing: border-box;
 }
 
+:root{
+    --navbg: #ff6900;
+    --footerbg: #1a1a1a;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* flex config */
+.d-flex{
+    display: flex;
+}
+
+/* //flex config */
+
+/* list config */
+ul{
+    list-style: none;
+}
+/* //list config */
+/* nav config */
+nav{
+    background-color: var(--navbg);
+
+}
+
+.navbar{
+    padding: 1% 0;
+}
+
+.filters{
+    color: white;
+    width: 12%;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 13%;
+}
+
+/* //nav config */
