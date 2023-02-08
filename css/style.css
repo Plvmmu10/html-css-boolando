@@ -16,6 +16,21 @@
     margin: 0 auto;
 }
 
+.white{
+    color: white;
+}
+
+
+/* width settings */
+.w-12{
+    width: 12%;
+}
+
+.w-90{
+    width: 90%;
+}
+/* //width settings */
+
 /* flex config */
 .d-flex{
     display: flex;
@@ -31,21 +46,20 @@ ul{
 /* nav config */
 nav{
     background-color: var(--navbg);
-
+    position: fixed;
+    width: 100%;
 }
 
 .navbar{
     padding: 1% 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .filters{
-    color: white;
-    width: 12%;
     justify-content: space-between;
 }
 
-.logo{
-    width: 13%;
-}
+
 
 /* //nav config */
