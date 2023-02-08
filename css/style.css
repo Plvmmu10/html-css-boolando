@@ -29,6 +29,10 @@
 .w-90{
     width: 90%;
 }
+
+.w-100{
+    width: 100%;
+}
 /* //width settings */
 
 /* flex config */
@@ -48,12 +52,14 @@ nav{
     background-color: var(--navbg);
     position: fixed;
     width: 100%;
+   
 }
 
 .navbar{
     padding: 1% 0;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .filters{
@@ -63,3 +69,75 @@ nav{
 
 
 /* //nav config */
+.rowPosition{
+    align-content: center;
+    padding-top: 9%;
+}
+
+.row{
+    flex: row wrap;
+}
+/* card config */
+
+.card{
+    width: 400px;
+    height: 600px;
+    position: relative;
+}
+    
+.imageSize{
+    width: 400px;
+    height: 600px;
+}
+
+.imageFirst{
+   display: block;
+}
+
+.imageSecond{
+    position: relative;
+    top:0;
+    bottom: 0;
+    display: none;
+}
+
+/* hover config */
+.image:hover .imageSecond{
+    display: block;
+}
+
+.image:hover .imageFirst{
+    display: none;
+}
+/* //hover config */
+
+.heartContainer{
+    background-color: white;
+    color: red;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 2%;
+    right: 0;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.extraContainer{
+    position: absolute;
+    bottom: 7%;
+}
+.extra{
+    color: white;
+    padding: 1px 6px;
+}
+
+.discount{
+    background-color: red;
+}
+.sostenibility{
+    background-color: green;
+}
+    
+/* //card config */

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <title>Boolando</title>
 </head>
+
 <body>
     <header>
         <!-- Navbar -->
@@ -30,30 +34,39 @@
     </header>
 
     <main>
-        <!-- Card section  -->
-        <div class="padding">
-            <div class="card">
-                <picture class="mainImg">
-                    <picture class="hoverImg">
+        <div class="rowPosition">
+            <!-- Card section  -->
+            <div class="row d-flex container">
+                <div class="card">
+                    <div class="image">
+                        <img src="./img/1.webp" alt="levisFirst" class="imageFirst imageSize">
 
-                    </picture>
-                </picture>
-                <div class="heart"></div>
-                <div class="discount"></div>
-                <div class="sostenibility"></div>
-            </div>
-            <!-- //Card section -->
+                        <img src="./img/1b.webp" alt="levisFirstHover" class="imageSecond imageSize">
+                    </div>
+                    <div class="heartContainer d-flex"><span class="heart">&hearts;</span></div>
+                    <div class="extraContainer">
+                        <span class="discount extra">-50%</span>
+                        <span class="sostenibility extra">Sostenibilità</span>
+                    </div>
+                </div>
+                <!-- //Card section -->
 
-            <!-- Item info section -->
-            <div>
-                <section class="info">
-                    <p class="brand"></p>
-                    <h5 class="itemName"></h5>
-                    <p class="discountPrice"></p><p class="price"></p>
-                </section>
+                <!-- Item info section -->
+                <div>
+                    <section class="info">
+                        <p class="brand"></p>
+                        <h5 class="itemName"></h5>
+                        <p class="discountPrice"></p>
+                        <p class="price"></p>
+                    </section>
+                </div>
+                <!-- //Item info section -->
             </div>
-            <!-- //Item info section -->
         </div>
+
+
+
+
 
         <footer>
             <div class="container">
@@ -70,6 +83,7 @@
                 </div>
             </div>
         </footer>
-    </main>    
+    </main>
 </body>
+
 </html>
